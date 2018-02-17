@@ -58,7 +58,7 @@ function startGulp(name, opts) {
   var tests = ['test/**/*.js'];
   var alljs = files.concat(tests);
 
-  var buildPath = './node_modules/bitcore-build-zcash/';
+  var buildPath = './node_modules/bitcore-build-koto/';
   var buildModulesPath = buildPath + 'node_modules/';
   var buildBinPath = buildPath + 'node_modules/.bin/';
 
@@ -102,9 +102,9 @@ function startGulp(name, opts) {
     var browserifyCommand;
 
     if (name !== 'lib') {
-      browserifyCommand = buildBinPath + 'browserify --require ./index.js:' + fullname + ' --external bitcore-lib-zcash -o ' + fullname + '.js';
+      browserifyCommand = buildBinPath + 'browserify --require ./index.js:' + fullname + ' --external bitcore-lib-koto -o ' + fullname + '.js';
     } else {
-      browserifyCommand = buildBinPath + 'browserify --require ./index.js:bitcore-lib-zcash -o bitcore-lib-zcash.js';
+      browserifyCommand = buildBinPath + 'browserify --require ./index.js:bitcore-lib-koto -o bitcore-lib-koto.js';
     }
 
     gulp.task('browser:uncompressed', shell.task([

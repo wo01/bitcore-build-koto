@@ -1,14 +1,14 @@
 {
-  "name": "bitcore-build-zcash",
+  "name": "bitcore-build-koto",
   "version": "0.5.4",
-  "description": "A helper for common tasks to build bitcore-zcash modules'",
+  "description": "A helper for common tasks to build bitcore-koto modules'",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/str4d/bitcore-build-zcash"
+    "url": "git://github.com/wo01/bitcore-build-koto"
   },
   "keywords": [
     "bitcore"
@@ -33,9 +33,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/str4d/bitcore-build-zcash/issues"
+    "url": "https://github.com/wo01/bitcore-build-koto/issues"
   },
-  "homepage": "https://github.com/str4d/bitcore-build-zcash",
+  "homepage": "https://github.com/wo01/bitcore-build-koto",
   "dependencies": {
     "brfs": "^1.2.0",
     "browserify": "~13.1.0",
