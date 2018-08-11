@@ -60,7 +60,7 @@ function startGulp(name, opts) {
 
   var buildPath = './node_modules/bitcore-build-koto/';
   var buildModulesPath = buildPath + 'node_modules/';
-  var buildBinPath = buildPath + 'node_modules/.bin/';
+  var buildBinPath = './node_modules/.bin/';
 
   /**
    * testing
